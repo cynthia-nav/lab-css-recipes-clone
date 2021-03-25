@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+}
+#header{
+    text-align: center;
+}
+.image{
+    width: 600px;
+    height: 350px;
+    object-fit: cover;
+    position: relative;
+    object-position: 100% 20%;
+}
+h1{
+    position: absolute;
+    top: 8rem;
+    width: 100%;
+    color: white;
+    font-size: 50px;
+}
+ul {
+    list-style: none;
+}
+.imgInfo{
+    width: 250px;
+}
+#ingredients{
+    text-align: left;
+    max-width: 500px;
+    margin: auto;
+}
+#directions{
+    text-align: left;
+    max-width: 500px;
+    margin: auto;
+}
+#general{
+    max-width: 500px;
+    margin: auto;
+}
+hr {
+    width: 500px;
+}
